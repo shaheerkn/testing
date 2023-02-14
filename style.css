@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "supaMegaFantastic-Regular";
+  src: url("SupaMegaFantastic-Regular.eot");
+  src: url("SupaMegaFantastic-Regular.eot?#iefix") format("embedded-opentype"),
+    url("SupaMegaFantastic-Regular.woff2") format("woff2"),
+    url("SupaMegaFantastic-Regular.woff") format("woff"),
+    url("SupaMegaFantastic-Regular.ttf") format("truetype"),
+    url("SupaMegaFantastic-Regular.svg#SupaMegaFantastic-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1 {
+  font-family: "supaMegaFantastic-Regular";
+  text-align: center;
+  margin-top: 20px;
+}
